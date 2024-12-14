@@ -35,7 +35,7 @@
 .add-task__row {
   display: flex;
 }
-.list {
+.todo__list {
   margin: 0;
   padding: 0px;
 }
@@ -128,7 +128,7 @@ button{
 }
 
 /* Completed */
-.todo__label_completed {
+.todo__list_completed .todo__label {
   text-decoration: line-through;
   color: #888;
 }
