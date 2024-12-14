@@ -32,7 +32,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.add-task__row {
   display: flex;
 }
 ul {
@@ -88,7 +88,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="new-task"] {
+.add-task__title {
   display: block;
   margin: 0 0 20px;
 }
