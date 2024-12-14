@@ -14,7 +14,7 @@
       <section class="add-task"  id="add-task">
         <h2 class="add-task__title title">Add Item</h2>
         <div class="add-task__row">
-          <input id="new-task" class="add-task__input task__input task" type="text">
+          <input id="new-task" class="add-task__input task__input" type="text">
           <button  class="button_add button">Add</button>
         </div>
       </section>
@@ -23,15 +23,15 @@
         <ul class="todo__list" id="incomplete-tasks">
           <li class="todo__item">
             <input type="checkbox" class="todo__checkbox">
-            <label class="todo__label task">Pay Bills</label>
-            <input type="text" class="todo__input task__input task">
+            <label class="todo__label">Pay Bills</label>
+            <input type="text" class="todo__input task__input">
             <button class="button_edit button">Edit</button>
             <button class="button_delete button"><img class="button__icon" src="./remove.svg" alt=""></button>
           </li>
           <li class="todo__item_edit-mode todo__item">
             <input type="checkbox"  class="todo__checkbox">
-            <label class="todo__label task">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="todo__input task__input task">
+            <label class="todo__label">Go Shopping</label>
+            <input type="text" value="Go Shopping" class="todo__input task__input">
             <button class="button_edit button">Save</button>
             <button class="button_delete button"><img class="button__icon" src="./remove.svg" alt=""></button>
           </li>
@@ -40,10 +40,10 @@
       <section class="completed">
         <h2 class="title_completed title">Completed</h2>
         <ul class="todo__list_completed todo__list" id="completed-tasks">
-          <li class="todo__item_completed">
+          <li class="todo__item todo__item_completed">
             <input type="checkbox"   class="todo__checkbox" checked>
-            <label class="todo__label todo__label_completed task">See the Doctor</label>
-            <input type="text" class="task__input_completed todo__input task__input task">
+            <label class="todo__label">See the Doctor</label>
+            <input type="text" class="todo__input task__input">
             <button class="button_edit button">Edit</button>
             <button class="button_delete button"><img src="./remove.svg" class="button__icon" alt=""></button>
           </li>
