@@ -5,22 +5,22 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="style.css" MEDIA="screen" charset="utf-8">
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <img class="header__img" src="./eisenhower-matrix.jpg" alt="matrix-eisenhower">
       <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <main class="main">
       <section class="add-task"  id="add-task">
-        <h2 class="add-task__title">Add Item</h2>
+        <h2 class="add-task__title title">Add Item</h2>
         <div class="add-task__row">
           <input id="new-task" class="add-task__input task" type="text">
           <button  class="button_add button">Add</button>
         </div>
       </section>
       <section class="todo">
-      <h2 class="todo__title">Todo</h2>
-        <ul class="todo__list" id="incomplete-tasks">
+      <h2 class="todo__title title">Todo</h2>
+        <ul class="todo__list list" id="incomplete-tasks">
           <li class="todo__item">
             <input type="checkbox" class="todo__checkbox">
             <label class="todo__label task">Pay Bills</label>
@@ -28,7 +28,7 @@
             <button class="button_edit button">Edit</button>
             <button class="button_delete button"><img src="./remove.svg" alt=""></button>
           </li>
-          <li class="editMode todo__item_edit-mode">
+          <li class="todo__item_edit-mode">
             <input type="checkbox"  class="todo__checkbox">
             <label class="todo__label task">Go Shopping</label>
             <input type="text" value="Go Shopping" class="todo__input task">
@@ -38,8 +38,8 @@
         </ul>
       </section>
       <section>
-        <h2>Completed</h2>
-        <ul id="completed-tasks">
+        <h2 class="title">Completed</h2>
+        <ul class="list" id="completed-tasks">
           <li>
             <input type="checkbox"  class="todo__checkbox" checked>
             <label class="todo__label task">See the Doctor</label>
