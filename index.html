@@ -20,32 +20,32 @@
       </section>
       <section class="todo">
       <h2 class="todo__title title">Todo</h2>
-        <ul class="todo__list list" id="incomplete-tasks">
+        <ul class="todo__list" id="incomplete-tasks">
           <li class="todo__item">
             <input type="checkbox" class="todo__checkbox">
             <label class="todo__label task">Pay Bills</label>
             <input type="text" class="todo__input task__input task">
             <button class="button_edit button">Edit</button>
-            <button class="button_delete button"><img src="./remove.svg" alt=""></button>
+            <button class="button_delete button"><img class="button__icon" src="./remove.svg" alt=""></button>
           </li>
           <li class="todo__item_edit-mode todo__item">
             <input type="checkbox"  class="todo__checkbox">
             <label class="todo__label task">Go Shopping</label>
             <input type="text" value="Go Shopping" class="todo__input task__input task">
             <button class="button_edit button">Save</button>
-            <button class="button_delete button"><img src="./remove.svg" alt=""></button>
+            <button class="button_delete button"><img class="button__icon" src="./remove.svg" alt=""></button>
           </li>
         </ul>
       </section>
       <section class="completed">
-        <h2 class="completed__title title">Completed</h2>
-        <ul class="completed__list list" id="completed-tasks">
-          <li class="completed__item">
+        <h2 class="title_completed title">Completed</h2>
+        <ul class="todo__list_completed todo__list" id="completed-tasks">
+          <li class="todo__item_completed">
             <input type="checkbox"   class="todo__checkbox" checked>
-            <label class="completed__label task">See the Doctor</label>
-            <input type="text" class="completed__input task__input task">
+            <label class="todo__label todo__label_completed task">See the Doctor</label>
+            <input type="text" class="task__input_completed todo__input task__input task">
             <button class="button_edit button">Edit</button>
-            <button class="button_delete button"><img src="./remove.svg" alt=""></button>
+            <button class="button_delete button"><img src="./remove.svg" class="button__icon" alt=""></button>
           </li>
         </ul>
       </section>
